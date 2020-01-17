@@ -1,1 +1,9 @@
-<h1>Welcome to my Awesome Web App</h1>
+<% @slowcookers.each do |slowcooker| %>
+  <div>
+    <h1><%= slowcooker.recipe %></h1><br />
+    <i><%= slowcooker.instuction %></i><br />
+  </div>
+
+  <hr />
+<% end %>
+
