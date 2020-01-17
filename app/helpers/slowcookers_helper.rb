@@ -1,0 +1,2 @@
+module SlowcookersHelper
+end
